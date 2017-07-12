@@ -1,0 +1,13 @@
+// console.log("found an image");
+    // document.body.style.backgroundColor = "red";
+    // var images = document.getElementsByTagName('img');
+    // if (images.length > 1) {
+    //   console.log("oh boy, there are more than one image on this apge...");
+    // }
+
+    // var images = document.getElementsByTagName('img');
+
+// for (var i = 0, l = images.length; i < l; i++) {
+//   console.log(images[i].src);
+//   //images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
+// }

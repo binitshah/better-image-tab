@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better Image Tab",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  
+  "web_accessible_resources": [
+    "editor.html",
+    "css/style.css",
+    "css/bulma.css"
+  ],
+  "content_scripts": [{
+    "js": ["js/jquery-1.5.1.min.js", "js/caman.min.js", "main.js"],
+    "matches": ["<all_urls>"]
+  }]
+}
